@@ -1,0 +1,552 @@
+{
+  "creationTime": "1650883577516",
+  "name": "Robot Legions vs Blank",
+  "pointsLimit": 1000,
+  "units": [
+    {
+      "id": "lcEWPMS",
+      "cost": 55,
+      "name": "Robot Lord",
+      "size": 1,
+      "defense": 3,
+      "quality": 3,
+      "specialRules": [
+        {
+          "key": "hero",
+          "name": "Hero",
+          "rating": ""
+        },
+        {
+          "key": "regeneration",
+          "name": "Regeneration",
+          "rating": ""
+        },
+        {
+          "key": "robot",
+          "name": "Robot",
+          "rating": ""
+        },
+        {
+          "key": "slow",
+          "name": "Slow",
+          "rating": ""
+        },
+        {
+          "key": "tough",
+          "name": "Tough",
+          "rating": "3"
+        }
+      ],
+      "armyId": "4k5amkxoybdiqotm",
+      "selectionId": "OtU0v",
+      "combined": false,
+      "joinToUnit": "yPJ5Q",
+      "models": [
+        {
+            "name": "Robot Lord",
+            "count": 1,
+            "loadout": [
+              {
+                "id": "b_M_-",
+                "name": "CCW",
+                "label": "CCW",
+                "attacks": 3,
+                "specialRules": [],
+                "count": 1,
+                "originalCount": 1,
+                "type": "ArmyBookWeapon"
+              },
+              {
+                "id": "9acI_",
+                "name": "Gauss Pistol",
+                "label": "Gauss Pistol",
+                "range": 12,
+                "attacks": 1,
+                "specialRules": [
+                  {
+                    "key": "rending",
+                    "name": "Rending",
+                    "rating": "",
+                    "modify": false
+                  }
+                ],
+                "count": 1,
+                "originalCount": 1,
+                "type": "ArmyBookWeapon"
+              },
+              {
+                "name": "Warden",
+                "type": "ArmyBookItem",
+                "label": "Warden (Regen-Protocol)",
+                "content": [
+                  {
+                    "key": "regen-protocol",
+                    "name": "Regen-Protocol",
+                    "type": "ArmyBookRule",
+                    "label": "Regen-Protocol",
+                    "rating": "",
+                    "count": 1,
+                    "dependencies": []
+                  }
+                ],
+                "count": 1,
+                "dependencies": []
+              }
+            ]
+        }
+      ]
+    },
+    {
+      "id": "njiIkJi",
+      "cost": 125,
+      "name": "Warriors",
+      "size": 5,
+      "defense": 4,
+      "quality": 3,
+      "specialRules": [
+        {
+          "key": "regeneration",
+          "name": "Regeneration",
+          "rating": ""
+        },
+        {
+          "key": "robot",
+          "name": "Robot",
+          "rating": ""
+        },
+        {
+          "key": "slow",
+          "name": "Slow",
+          "rating": ""
+        }
+      ],
+      "armyId": "4k5amkxoybdiqotm",
+      "selectionId": "yPJ5Q",
+      "combined": true,
+      "joinToUnit": null,
+      "models": [
+        {
+            "name": "Warrior",
+            "count": 4,
+            "loadout": [
+              {
+                "id": "ZBLAN",
+                "name": "CCWs",
+                "label": "CCWs",
+                "attacks": 1,
+                "specialRules": [],
+                "type": "ArmyBookWeapon"
+              },
+              {
+                "id": "Ao7hu",
+                "name": "Gauss Rifles",
+                "label": "Gauss Rifles",
+                "range": 24,
+                "attacks": 1,
+                "specialRules": [
+                  {
+                    "key": "rending",
+                    "name": "Rending",
+                    "rating": "",
+                    "modify": false
+                  }
+                ],
+                "type": "ArmyBookWeapon"
+                }
+                ]
+              },{
+                  "name": "Warrior",
+                  "count": 1,
+                  "loadout": [
+                    {
+                      "id": "ZBLAN",
+                      "name": "CCWs",
+                      "label": "CCWs",
+                      "attacks": 1,
+                      "specialRules": [],
+                      "count": 5,
+                      "originalCount": 5,
+                      "type": "ArmyBookWeapon"
+                    },{
+                      "name": "Fusion Caster",
+                      "type": "ArmyBookWeapon",
+                      "label": "Fusion Caster (12\", A1, AP(4), Deadly(3))",
+                      "range": 12,
+                      "attacks": 1,
+                      "condition": "",
+                      "specialRules": [
+                        {
+                          "key": "ap",
+                          "name": "AP",
+                          "type": "ArmyBookRule",
+                          "label": "AP(4)",
+                          "modify": false,
+                          "rating": "4"
+                        },
+                        {
+                          "key": "deadly",
+                          "name": "Deadly",
+                          "type": "ArmyBookRule",
+                          "label": "Deadly(3)",
+                          "modify": false,
+                          "rating": "3"
+                        }
+                      ],
+                      "count": 1,
+                      "dependencies": []
+                    }
+                  ]
+              }
+            ]
+        }
+      ]
+    },
+    {
+      "id": "njiIkJi",
+      "cost": 125,
+      "name": "Warriors",
+      "size": 5,
+      "defense": 4,
+      "quality": 3,
+      "specialRules": [
+        {
+          "key": "regeneration",
+          "name": "Regeneration",
+          "rating": ""
+        },
+        {
+          "key": "robot",
+          "name": "Robot",
+          "rating": ""
+        },
+        {
+          "key": "slow",
+          "name": "Slow",
+          "rating": ""
+        }
+      ],
+      "armyId": "4k5amkxoybdiqotm",
+      "selectionId": "J04A_",
+      "combined": true,
+      "joinToUnit": "yPJ5Q",
+      "models": [
+        {
+            "name": "Warrior",
+            "count": 4,
+            "loadout": [
+              {
+                "id": "ZBLAN",
+                "name": "CCWs",
+                "label": "CCWs",
+                "attacks": 1,
+                "specialRules": [],
+                "type": "ArmyBookWeapon"
+              },
+              {
+                "id": "Ao7hu",
+                "name": "Gauss Rifles",
+                "label": "Gauss Rifles",
+                "range": 24,
+                "attacks": 1,
+                "specialRules": [
+                  {
+                    "key": "rending",
+                    "name": "Rending",
+                    "rating": "",
+                    "modify": false
+                  }
+                ],
+                "type": "ArmyBookWeapon"
+                }
+                ]
+              },{
+                  "name": "Warrior",
+                  "count": 1,
+                  "loadout": [
+                    {
+                      "id": "ZBLAN",
+                      "name": "CCWs",
+                      "label": "CCWs",
+                      "attacks": 1,
+                      "specialRules": [],
+                      "count": 5,
+                      "originalCount": 5,
+                      "type": "ArmyBookWeapon"
+                    },{
+                      "name": "Fusion Caster",
+                      "type": "ArmyBookWeapon",
+                      "label": "Fusion Caster (12\", A1, AP(4), Deadly(3))",
+                      "range": 12,
+                      "attacks": 1,
+                      "condition": "",
+                      "specialRules": [
+                        {
+                          "key": "ap",
+                          "name": "AP",
+                          "type": "ArmyBookRule",
+                          "label": "AP(4)",
+                          "modify": false,
+                          "rating": "4"
+                        },
+                        {
+                          "key": "deadly",
+                          "name": "Deadly",
+                          "type": "ArmyBookRule",
+                          "label": "Deadly(3)",
+                          "modify": false,
+                          "rating": "3"
+                        }
+                      ],
+                      "count": 1,
+                      "dependencies": []
+                    }
+                  ]
+              }
+            ]
+        }
+      ]
+    },
+    {
+      "id": "wvgi7_R",
+      "cost": 195,
+      "name": "Eternals",
+      "size": 5,
+      "defense": 2,
+      "quality": 3,
+      "specialRules": [
+        {
+          "key": "regeneration",
+          "name": "Regeneration",
+          "rating": ""
+        },
+        {
+          "key": "robot",
+          "name": "Robot",
+          "rating": ""
+        },
+        {
+          "key": "slow",
+          "name": "Slow",
+          "rating": ""
+        }
+      ],
+      "armyId": "4k5amkxoybdiqotm",
+      "selectionId": "1q5sm",
+      "combined": false,
+      "joinToUnit": null,
+      "models": [
+        {
+            "name": "Eternal",
+            count: 5,
+            "loadout": [
+              {
+                "id": "ecc-2",
+                "name": "CCWs",
+                "label": "CCWs",
+                "attacks": 1,
+                "specialRules": [],
+                "type": "ArmyBookWeapon"
+              },
+              {
+                "id": "KeK_M",
+                "name": "Flux Carbines",
+                "label": "Flux Carbines",
+                "range": 18,
+                "attacks": 2,
+                "specialRules": [
+                  {
+                    "key": "poison",
+                    "name": "Poison",
+                    "rating": "",
+                    "modify": false
+                  }
+                ],
+                "type": "ArmyBookWeapon"
+              }
+            ]
+        }
+      ]
+    },
+    {
+      "id": "8pPhbp8",
+      "cost": 225,
+      "name": "Support Platform",
+      "size": 1,
+      "defense": 2,
+      "quality": 3,
+      "specialRules": [
+        {
+          "key": "slow",
+          "name": "Slow",
+          "rating": ""
+        },
+        {
+          "key": "robot",
+          "name": "Robot",
+          "rating": ""
+        },
+        {
+          "key": "strider",
+          "name": "Strider",
+          "rating": ""
+        },
+        {
+          "key": "tough",
+          "name": "Tough",
+          "rating": "6"
+        }
+      ],
+      "armyId": "4k5amkxoybdiqotm",
+      "selectionId": "YsHa4",
+      "combined": false,
+      "joinToUnit": null,
+      "models": [
+        name: "Support Platform",
+        count: 1,
+        "loadout": [
+          {
+            "id": "YwACX",
+            "name": "Twin Flux Cannon",
+            "label": "Twin Flux Cannon",
+            "range": 24,
+            "attacks": 6,
+            "specialRules": [
+              {
+                "key": "ap",
+                "name": "AP",
+                "rating": "1",
+                "modify": false
+              },
+              {
+                "key": "poison",
+                "name": "Poison",
+                "rating": "",
+                "modify": false
+              }
+            ],
+            "type": "ArmyBookWeapon"
+          },
+          {
+            "name": "Flux Cannon",
+            "type": "ArmyBookWeapon",
+            "label": "Flux Cannon (24”, A3, AP(1), Poison)",
+            "range": 24,
+            "attacks": 3,
+            "specialRules": [
+              {
+                "key": "ap",
+                "name": "AP",
+                "type": "ArmyBookRule",
+                "label": "AP(1)",
+                "rating": "1"
+              },
+              {
+                "key": "poison",
+                "name": "Poison",
+                "type": "ArmyBookRule",
+                "label": "Poison",
+                "rating": ""
+              }
+            ]
+          },
+          {
+            "name": "Repair Bots",
+            "type": "ArmyBookItem",
+            "label": "Repair Bots (Regeneration)",
+            "content": [
+              {
+                "key": "regeneration",
+                "name": "Regeneration",
+                "type": "ArmyBookRule",
+                "label": "Regeneration",
+                "rating": "",
+                "count": 1,
+                "dependencies": []
+              }
+            ]
+          }
+        ]
+
+      ]
+    },
+    {
+      "id": "xVuwyHf",
+      "cost": 145,
+      "name": "Guardians",
+      "size": 5,
+      "defense": 3,
+      "quality": 3,
+      "specialRules": [
+        {
+          "key": "regeneration",
+          "name": "Regeneration",
+          "rating": ""
+        },
+        {
+          "key": "robot",
+          "name": "Robot",
+          "rating": ""
+        },
+        {
+          "key": "slow",
+          "name": "Slow",
+          "rating": ""
+        }
+      ],
+      "armyId": "4k5amkxoybdiqotm",
+      "selectionId": "krjlH",
+      "combined": false,
+      "joinToUnit": null,
+      "models": [
+        {
+            "name": "Guardian",
+            "count": 5,
+            "loadout": [
+                  {
+                    "name": "Hyper Swords",
+                    "type": "ArmyBookWeapon",
+                    "label": "Hyper Swords (A2, AP(1), Rending)",
+                    "range": 0,
+                    "attacks": 2,
+                    "condition": "",
+                    "specialRules": [
+                      {
+                        "key": "ap",
+                        "name": "AP",
+                        "type": "ArmyBookRule",
+                        "label": "AP(1)",
+                        "modify": false,
+                        "rating": "1"
+                      },
+                      {
+                        "key": "rending",
+                        "name": "Rending",
+                        "type": "ArmyBookRule",
+                        "label": "Rending",
+                        "modify": false,
+                        "rating": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Combat Shields",
+                    "type": "ArmyBookItem",
+                    "label": "Combat Shields (Shield Wall)",
+                    "specialRules": [
+                      {
+                        "key": "shield wall",
+                        "name": "Shield Wall",
+                        "type": "ArmyBookRule",
+                        "label": "Shield Wall",
+                        "modify": false,
+                        "rating": ""
+                      }
+                    ]
+                  }
+                ]
+        }
+      ]
+
+    }
+  ]
+}
