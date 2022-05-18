@@ -198,8 +198,6 @@
                   ]
               }
             ]
-        }
-      ]
     },
     {
       "id": "njiIkJi",
@@ -303,8 +301,6 @@
                   ]
               }
             ]
-        }
-      ]
     },
     {
       "id": "wvgi7_R",
@@ -337,7 +333,7 @@
       "models": [
         {
             "name": "Eternal",
-            count: 5,
+            "count": 5,
             "loadout": [
               {
                 "id": "ecc-2",
@@ -401,8 +397,9 @@
       "combined": false,
       "joinToUnit": null,
       "models": [
-        name: "Support Platform",
-        count: 1,
+      {
+        "name": "Support Platform",
+        "count": 1,
         "loadout": [
           {
             "id": "YwACX",
@@ -466,7 +463,7 @@
             ]
           }
         ]
-
+        }
       ]
     },
     {
